@@ -68,9 +68,9 @@ def main():
             top_k_slider = gr.Slider(minimum=1, maximum=20, step=1, value=20, label="top_K")
 
         with gr.Row():
-            audio_seed_input = gr.Number(value=2, label="Audio Seed")
+            audio_seed_input = gr.Number(value=85312670, label="Audio Seed")
             generate_audio_seed = gr.Button("\U0001F3B2")
-            text_seed_input = gr.Number(value=42, label="Text Seed")
+            text_seed_input = gr.Number(value=94272490, label="Text Seed")
             generate_text_seed = gr.Button("\U0001F3B2")
 
         generate_button = gr.Button("Generate")

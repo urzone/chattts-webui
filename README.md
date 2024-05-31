@@ -4,7 +4,18 @@ the ChatTTS webui
 
 ![the webui image looklike](images/webui_image.png)
 
-## webui start
+
+
+## Install
+
+```bash
+git clone https://github.com/urzone/chattts-webui.git
+cd chattts-webui
+
+conda env create -f environment.yml
+```
+
+## WebUI start
 
 start webui.py
 ```bash
@@ -13,14 +24,9 @@ python webui.py
 python webui.py --server_port=8080
 ```
 
-## install
-```bash
-conda create -n chattts  python=3.9
-conda activate chattts
 
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
-pip install omegaconf vocos transformers vector-quantize-pytorch
-```
+
+
 
 
 [**English**](./README.md) | [**中文简体**](./README_CN.md)
